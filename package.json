@@ -3,15 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://mustymustafa.github.io/portfolio",
   "scripts": {
     "test": "",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist",
     "start": "node index.js"
   },
   "author": "Musty",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.12.0"
   }
 }
