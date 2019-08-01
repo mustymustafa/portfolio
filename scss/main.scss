@@ -74,26 +74,26 @@ main{
     }
 
     &#about {
-        min-height: 100%;
+        min-height: 100vh;
         background: $primary-color;
-       
-        overflow: hidden;
+       overflow: hidden;
         h1 {
             margin-top: 20vh;
         }
     }
 
     &#work {
-        height: 100vh;
+        height: 100%;
+        background: $primary-color;
         overflow: hidden;
         h1 {
-            margin-top: 10vh;
+            margin-top: 20vh;
         }
     }
 
     &#cm {
-        height: 100vh;
-        overflow: hidden;
+        height: 100%;
+        
         h1 {
             margin-top: 10vh;
         }
@@ -134,9 +134,9 @@ main{
     margin-top: 1rem;
 
     div {
-        font-size: 2rem;
+        font-size: 1rem;
         border: 3px white solid;
-        padding: 1.5rem 2.5rem;
+        padding: 1rem 1.5rem;
         margin-bottom: 3rem;
         @include easeout;
 
