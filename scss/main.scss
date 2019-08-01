@@ -83,7 +83,7 @@ main{
     }
 
     &#work {
-        height: 100%;
+        min-height: 100%;
         background: $primary-color;
         overflow: hidden;
         h1 {
