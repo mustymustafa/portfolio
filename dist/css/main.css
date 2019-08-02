@@ -49,7 +49,7 @@
   .menu-branding {
     background: #444;
     transform: translate3d(0, 100%, 0);
-    transition: all 1s ease-out; }
+    transition: all 0.5s ease-out; }
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
@@ -61,7 +61,7 @@
       background-size: cover; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
-    transition: all 1s ease-out; }
+    transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
@@ -163,8 +163,10 @@ main {
     main#work h1 {
       margin-top: 10vh; }
   main#cm {
-    height: 100vh;
-    overflow: hidden; }
+    height: 100%;
+    overflow: hidden;
+    background: #444;
+   }
     main#cm h1 {
       margin-top: 10vh; }
   main .projects {
