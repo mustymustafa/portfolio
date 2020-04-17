@@ -207,11 +207,11 @@ main {
 
 @media screen and (min-width: 1170px) {
   .projects {
-    grid-template-columns: auto auto auto auto; } }
+    grid-template-columns: auto auto auto; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-   grid-template-columns: auto auto auto auto;} }
+   grid-template-columns: auto auto auto;} }
 
 @media screen and (max-width: 768px) {
   main {
@@ -239,7 +239,7 @@ main {
       width: 150px;
       height: 150px; }
   .projects {
-    grid-template-columns: repeat(2, 3fr); } }
+    grid-template-columns: auto auto; } }
 
 @media screen and (max-width: 500px) {
   main {
@@ -250,4 +250,4 @@ main {
       margin-top: 1rem;
       font-size: 5rem; }
   .projects {
-   grid-template-columns: auto auto auto auto; } }
+   grid-template-columns: auto; } }
